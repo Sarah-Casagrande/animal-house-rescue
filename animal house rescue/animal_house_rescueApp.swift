@@ -12,6 +12,7 @@ struct animal_house_rescueApp: App {
     var body: some Scene {
         WindowGroup {
             PetListView()
+                .environmentObject(PetModel())
         }
     }
 }
