@@ -47,23 +47,11 @@ struct PetDetailView: View {
                 Text("View Related Pets")
                     .bold()
                     .padding(.top, 30)
-                
-//                HStack {
-//                    ForEach (0..<model.pets.count) { pet in
-//
-//                            Image(pet.image)
-//                                .resizable()
-//                                .scaledToFill()
-//                                .frame(width: 50, height: 50, alignment: .center)
-//                                .clipped()
-//                                .cornerRadius(5)
-//
-//                    }
-//                }
-                
-                
             }
             .padding([.leading, .bottom, .trailing])
+            
+            PetCarouselView()
+                .environmentObject(PetModel())
             
         }
     }

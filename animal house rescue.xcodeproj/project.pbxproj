@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E127C82A28987FA500DC9C2D /* PetCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127C82928987FA500DC9C2D /* PetCarouselView.swift */; };
 		E1487B6D28985896004EFFB2 /* animal_house_rescueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1487B6C28985896004EFFB2 /* animal_house_rescueApp.swift */; };
 		E1487B6F28985896004EFFB2 /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1487B6E28985896004EFFB2 /* PetListView.swift */; };
 		E1487B7128985898004EFFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1487B7028985898004EFFB2 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E127C82928987FA500DC9C2D /* PetCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCarouselView.swift; sourceTree = "<group>"; };
 		E1487B6928985896004EFFB2 /* animal house rescue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animal house rescue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1487B6C28985896004EFFB2 /* animal_house_rescueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animal_house_rescueApp.swift; sourceTree = "<group>"; };
 		E1487B6E28985896004EFFB2 /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				E1487B6E28985896004EFFB2 /* PetListView.swift */,
 				E1487BA4289871DF004EFFB2 /* PetDetailView.swift */,
+				E127C82928987FA500DC9C2D /* PetCarouselView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				E1487B6D28985896004EFFB2 /* animal_house_rescueApp.swift in Sources */,
 				E1487BA5289871DF004EFFB2 /* PetDetailView.swift in Sources */,
 				E1487B9F28985E03004EFFB2 /* PetModel.swift in Sources */,
+				E127C82A28987FA500DC9C2D /* PetCarouselView.swift in Sources */,
 				E1487BA328985E55004EFFB2 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
