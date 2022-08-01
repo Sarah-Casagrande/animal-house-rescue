@@ -1,0 +1,56 @@
+[
+{
+    "name": "Koda",
+    "image": "koda",
+    "gender": "Male",
+    "species": "Canine",
+    "breed": "Alaskan Malamute",
+    "age": "4 years",
+    "adoptionFee": 200
+},
+{
+    "name": "Daisy",
+    "image": "daisy",
+    "gender": "Female",
+    "species": "Canine",
+    "breed": "Labrador Retriever",
+    "age": "3 months",
+    "adoptionFee": 300
+},
+{
+    "name": "Bruno",
+    "image": "bruno",
+    "gender": "Male",
+    "species": "Canine",
+    "breed": "Weimaraner",
+    "age": "5 months",
+    "adoptionFee": 275
+},
+{
+    "name": "Midnight",
+    "image": "midnight",
+    "gender": "Female",
+    "species": "Feline",
+    "breed": "Domestic Shorthair",
+    "age": "2 years",
+    "adoptionFee": 125
+},
+{
+    "name": "Cleo",
+    "image": "cleo",
+    "gender": "Female",
+    "species": "Feline",
+    "breed": "Siamese",
+    "age": "4 years",
+    "adoptionFee": 75
+},
+{
+    "name": "Oscar",
+    "image": "oscar",
+    "gender": "Male",
+    "species": "Feline",
+    "breed": "Domestic Shorthair",
+    "age": "3 months",
+    "adoptionFee": 150
+}
+]
