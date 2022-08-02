@@ -11,7 +11,7 @@ import SwiftUI
 struct animal_house_rescueApp: App {
     var body: some Scene {
         WindowGroup {
-            PetListView()
+            PetTabView()
                 .environmentObject(PetModel())
         }
     }

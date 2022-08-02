@@ -20,6 +20,8 @@
 		E1487B9F28985E03004EFFB2 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1487B9E28985E03004EFFB2 /* PetModel.swift */; };
 		E1487BA328985E55004EFFB2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1487BA228985E55004EFFB2 /* DataService.swift */; };
 		E1487BA5289871DF004EFFB2 /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1487BA4289871DF004EFFB2 /* PetDetailView.swift */; };
+		E1AB076E28997F8C00745C1E /* PetFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB076D28997F8C00745C1E /* PetFeaturedView.swift */; };
+		E1AB077028997F9A00745C1E /* PetTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB076F28997F9A00745C1E /* PetTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		E1487B9E28985E03004EFFB2 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
 		E1487BA228985E55004EFFB2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E1487BA4289871DF004EFFB2 /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		E1AB076D28997F8C00745C1E /* PetFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFeaturedView.swift; sourceTree = "<group>"; };
+		E1AB076F28997F9A00745C1E /* PetTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 				E1487B6E28985896004EFFB2 /* PetListView.swift */,
 				E1487BA4289871DF004EFFB2 /* PetDetailView.swift */,
 				E127C82928987FA500DC9C2D /* PetCarouselView.swift */,
+				E1AB076D28997F8C00745C1E /* PetFeaturedView.swift */,
+				E1AB076F28997F9A00745C1E /* PetTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -320,6 +326,8 @@
 				E1487B6F28985896004EFFB2 /* PetListView.swift in Sources */,
 				E1487B6D28985896004EFFB2 /* animal_house_rescueApp.swift in Sources */,
 				E1487BA5289871DF004EFFB2 /* PetDetailView.swift in Sources */,
+				E1AB076E28997F8C00745C1E /* PetFeaturedView.swift in Sources */,
+				E1AB077028997F9A00745C1E /* PetTabView.swift in Sources */,
 				E1487B9F28985E03004EFFB2 /* PetModel.swift in Sources */,
 				E127C82A28987FA500DC9C2D /* PetCarouselView.swift in Sources */,
 				E1487BA328985E55004EFFB2 /* DataService.swift in Sources */,

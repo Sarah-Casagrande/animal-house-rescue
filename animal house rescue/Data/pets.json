@@ -6,7 +6,8 @@
     "species": "Canine",
     "breed": "Alaskan Malamute",
     "age": "4 years",
-    "adoptionFee": 200
+    "adoptionFee": 200,
+    "featured": false
 },
 {
     "name": "Daisy",
@@ -15,7 +16,8 @@
     "species": "Canine",
     "breed": "Labrador Retriever",
     "age": "3 months",
-    "adoptionFee": 300
+    "adoptionFee": 300,
+    "featured": true
 },
 {
     "name": "Bruno",
@@ -24,7 +26,8 @@
     "species": "Canine",
     "breed": "Weimaraner",
     "age": "5 months",
-    "adoptionFee": 275
+    "adoptionFee": 275,
+    "featured": false
 },
 {
     "name": "Midnight",
@@ -33,7 +36,8 @@
     "species": "Feline",
     "breed": "Domestic Shorthair",
     "age": "2 years",
-    "adoptionFee": 125
+    "adoptionFee": 125,
+    "featured": true
 },
 {
     "name": "Cleo",
@@ -42,7 +46,8 @@
     "species": "Feline",
     "breed": "Siamese",
     "age": "4 years",
-    "adoptionFee": 75
+    "adoptionFee": 75,
+    "featured": false
 },
 {
     "name": "Oscar",
@@ -51,6 +56,7 @@
     "species": "Feline",
     "breed": "Domestic Shorthair",
     "age": "3 months",
-    "adoptionFee": 150
+    "adoptionFee": 150,
+    "featured": true
 }
 ]

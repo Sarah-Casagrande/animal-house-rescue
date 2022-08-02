@@ -17,5 +17,6 @@ class Pet: Identifiable, Decodable {
     var breed:String
     var age:String
     var adoptionFee:Int
+    var featured:Bool
     
 }

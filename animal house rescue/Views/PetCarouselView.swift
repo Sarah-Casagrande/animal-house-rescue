@@ -16,6 +16,7 @@ struct PetCarouselView: View {
             HStack {
                 ForEach (model.pets) { index in
                     
+                    
                         VStack {
                             Image(index.image)
                                 .resizable()
