@@ -29,6 +29,8 @@ struct PetFeaturedView: View {
                     
                     ForEach (0..<model.pets.count) { index in
                             
+                        if model.pets[index].featured == true {
+                        
                             Button(action: {
                                 self.detailView = true
                             }, label: {
@@ -52,6 +54,7 @@ struct PetFeaturedView: View {
                             .frame(width: geo.size.width - 40, height: geo.size.height - 100, alignment: .center)
                             .cornerRadius(15)
                             .shadow(color: Color(.sRGB, red: 0, green: 0, blue: 0, opacity: 0.5), radius: 10, x: -5, y: 5)
+                        }
                     }
                 }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
                     .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
@@ -63,7 +66,7 @@ struct PetFeaturedView: View {
         }
     }
     
-    func setFeaturedIndex() {
+   func setFeaturedIndex() {
         let index = model.pets.firstIndex{ (pet) -> Bool in
             return pet.featured
         }

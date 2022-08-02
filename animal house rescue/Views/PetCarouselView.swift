@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PetCarouselView: View {
+struct DogCarouselView: View {
     
     @EnvironmentObject var model:PetModel
     
@@ -15,26 +15,53 @@ struct PetCarouselView: View {
         ScrollView {
             HStack {
                 ForEach (model.pets) { index in
-                    
-                    
+                        
+                    if index.species == "Canine" {
                         VStack {
                             Image(index.image)
                                 .resizable()
                                 .scaledToFill()
-                                .frame(width: 50, height: 50, alignment: .center)
+                                .frame(width: 100, height: 100, alignment: .center)
                                 .clipped()
                                 .cornerRadius(5)
                             Text(index.name)
                         }
+                    }
                 }
             }
         }
     }
 }
+
+struct CatCarouselView: View {
     
-    struct PetCarouselView_Previews: PreviewProvider {
-        static var previews: some View {
-            PetCarouselView()
-                .environmentObject(PetModel())
+    @EnvironmentObject var model:PetModel
+    
+    var body: some View {
+        ScrollView {
+            HStack {
+                ForEach (model.pets) { index in
+                        
+                    if index.species == "Feline" {
+                        VStack {
+                            Image(index.image)
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 100, height: 100, alignment: .center)
+                                .clipped()
+                                .cornerRadius(5)
+                            Text(index.name)
+                        }
+                    }
+                }
+            }
         }
     }
+}
+
+struct PetCarouselView_Previews: PreviewProvider {
+    static var previews: some View {
+        DogCarouselView()
+            .environmentObject(PetModel())
+    }
+}

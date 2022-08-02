@@ -50,9 +50,14 @@ struct PetDetailView: View {
             }
             .padding([.leading, .bottom, .trailing])
             
-            PetCarouselView()
-                .environmentObject(PetModel())
+            if pet.species == "Canine" {
             
+            DogCarouselView()
+                .environmentObject(PetModel())
+            } else if pet.species == "Feline" {
+            CatCarouselView()
+                .environmentObject(PetModel())
+            }
         }
     }
 }
