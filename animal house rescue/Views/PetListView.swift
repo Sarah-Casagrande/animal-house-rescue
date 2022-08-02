@@ -10,6 +10,7 @@ import SwiftUI
 struct PetListView: View {
     
     @EnvironmentObject var model:PetModel
+    @State var chooseSpecies = 0
     
     var body: some View {
         
@@ -21,6 +22,12 @@ struct PetListView: View {
                     .font(.largeTitle)
                     .bold()
                     .padding(.top, 40)
+                
+                Picker("Choose Species", selection: $chooseSpecies) {
+                    Text("All").tag(0)
+                    Text("Dogs").tag(1)
+                    Text("Cats").tag(2)
+                }.padding([.bottom, .trailing]).pickerStyle(SegmentedPickerStyle())
                 
                 ScrollView {
                     
