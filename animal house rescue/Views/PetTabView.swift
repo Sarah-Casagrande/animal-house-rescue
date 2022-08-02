@@ -20,7 +20,7 @@ struct PetTabView: View {
                     }
                 }
             
-            PetListView()
+            FullPetListView()
                 .tabItem {
                     VStack {
                         Image(systemName: "list.bullet")
